@@ -1,6 +1,7 @@
 from utils.sms_service import TabaarakSMS, send_match_notification
 from datetime import datetime
 
+
 def test_direct_sms():
     """Test direct SMS sending"""
     print("\n1. Testing direct SMS sending...")
